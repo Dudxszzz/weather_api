@@ -22,7 +22,8 @@ bar.pack(pady=10)
 
 bar.bind("<Return>", captura_texto) #vincula o evento (Enter) a função captura_texto()
 
-button = tk.Button(root, text="Captura de texto", command=captura_texto)
-button.pack(pady=5)
+# Botão para captura de texto
+# button = tk.Button(root, text="Captura de texto", command=captura_texto)
+# button.pack(pady=5)
 
 root.mainloop()
